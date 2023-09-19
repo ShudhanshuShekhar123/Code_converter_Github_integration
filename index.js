@@ -18,7 +18,7 @@ app.get("/auth", (req, res) => {
   const scopes = "repo"; // Specify the desired scope(s) here, separated by spaces
 
   // Redirect the user to the GitHub OAuth authorization URL with scopes
-  res.redirect(`https://github.com/login/oauth/authorize?client_id=${clientId}&redirect_uri=https://6509395e1b7ad91f0186d8dd--courageous-cuchufli-dbc914.netlify.app/app&scope=repo`);
+  res.redirect(`https://github.com/login/oauth/authorize?client_id=${clientId}&redirect_uri=http://localhost:3000/app&scope=repo`);
 });
 
 let accesstoken=""
