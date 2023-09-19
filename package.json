@@ -1,0 +1,32 @@
+{
+  "name": "code_converter_github_integration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShudhanshuShekhar123/Code_converter_Github_integration.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShudhanshuShekhar123/Code_converter_Github_integration/issues"
+  },
+  "homepage": "https://github.com/ShudhanshuShekhar123/Code_converter_Github_integration#readme",
+  "dependencies": {
+    "axios": "^1.5.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "nodemon": "^3.0.1",
+    "passport": "^0.6.0",
+    "passport-github": "^1.1.0"
+  }
+}
